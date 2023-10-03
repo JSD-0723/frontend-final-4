@@ -79,6 +79,8 @@ const Footer = () => {
               justifyContent: { xs: 'flex-start', sm: 'flex-end' },
             }}
           >
+           
+           
             <SocialMediaImg
               src={require('../Assets/sociallogos.png')}
               alt="logo"
