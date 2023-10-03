@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": ["plugin:react/recommended", "plugin:prettier/recommended"],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "endOfLine": "crlf",
+    "rules": {
+        "react/no-unescaped-entities": "off",
+        "no-irregular-whitespace": "error",
+        "keyword-spacing": ["error", { "before": true, "after": true }],
+        "prettier/prettier": "error"
+    }
+
+}
